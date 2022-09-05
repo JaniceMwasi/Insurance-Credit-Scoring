@@ -1,0 +1,38 @@
+---
+title: ""
+output:
+  pdf_document: default
+  word_document: default
+date: "`r Sys.Date()`"
+---
+# INSURANCE CREDIT SCORING PROJECT
+
+## Introduction
+
+The main source of income for insurance firms is premium payments made by insurance policy holders. When one enters an insurance cover contract with any insurance firm, 
+they are required to make payments called premiums to the insurance firm for the insurance cover being offered. They are two types of premiums, they are:
+
+* **earned premiums** - these are premiums collected by an insurance company for the portion of a policy that has expired. It is what the insured party has paid for a portion of 
+time in which the insurance policy was in effect, but has since expired.
+
+* **unearned premiums** - this is the premium amount that corresponds to the time period remaining on an insurance policy. In other words, it is the portion of the policy premium that has not yet been "earned" by the insurance company because the policy still has some time before it expires.
+
+## Problem Statement
+
+More and more banks in Kenya are getting into the insurance business. One of the ways they are doing this is by offering premium payment services on behalf of policy holders. An individual may be interested in an insurance policy but they do not have the funds to meet the premium payments. They can enter into an agreement with a bank, where the bank pays the premiums on their behalf to the insurance firm, while the individual repays the premium the bank paid to the insurance firm. Given that banks pay the premiums on an annual basis, if the individual defaults on the premium repayments, before the cover expires, the bank can claim the unearned premiums from the insurance firms. However, if an insurance firm is going under, it will not be able to refund the unearned premiums to the bank and as such, the bank will have lost on two fronts that is:
+
+* The default on the premium repayments.
+
+* The loss of the unearned premiums. 
+
+Therefore, the aim of this project is to develop an algorithm that can be used to model and predict the financial health of any insurance firm in Kenya 
+
+## Objectives
+
+* Develop and algorithm that can model and predict the financial health of any insurance firm in Kenya
+
+* Determine the amount of business in monetary terms that a bank can engage with any insurance firm in Kenya.
+
+
+
+
